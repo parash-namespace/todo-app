@@ -1,12 +1,13 @@
 import './App.css';
+import TodoItem from './components/TodoItem';
 
 function App() {
   return (
     <div>
-      <input type="checkbox" /><span className="bg-red">One </span> <br />
-      <input type="checkbox" /><span className="bg-red">Two </span> <br />
-      <input type="checkbox" /><span className="bg-red">Three </span> <br />
-      <input type="checkbox" /><span className="bg-red">Four </span> <br /> 
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
     </div>
   );
 }

@@ -1,0 +1,10 @@
+.todo-item {
+    width: 70%;
+    margin: 30px 25px;
+    border-bottom: 1px solid #8e8a8a;
+    padding-bottom: 12px;
+}
+
+.mr-3 {
+    margin-right: 15px;
+}
